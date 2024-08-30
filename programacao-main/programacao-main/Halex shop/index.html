@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>camisas de times compre ja!</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Compre aqui sua camisa do seu time do coração!</h2>
+    <p class="banner__texto">Entrega Gratís para SP/PR</p>
+    <input type="search" class="banner__pesquisa" placeholder="Escolha já!">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Algumas camisas</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/190329fa-61dc-4741-aa9d-6e44211d5451-removebg-preview11-53a6dea71c6eb7d6a616687101181237-640-0.png"
+            alt="camisa oficial arsenal"></div>
+        <div class="swiper-slide"><img src="img/camisa-arsenal-away-2223-torcedor-adidas-masculina-preta-11-119c67cf59a7f6486316582862035066-640-01-db8dd7a9e4a33824ba16698324065865-480-0.png"
+            alt="camisas arsenal"></div>
+        <div class="swiper-slide"><img src="img/777237_01.jpg" alt="camisa oficial palmeiras ">
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo"></h3>
+          <h2 class="descrição__titulo-livro"></h2>
+          <p class="descrição__texto">
+            Veja mais produtos no site oficial da loja!
+          </p>
+        </div>
+        <img src="img/city 3c.jpg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais Procurados!</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/tenis4.jpg"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="img/tenis3.jpg" alt="Livro sobre liderança em design da alura books">
+        </div>
+        <div class="swiper-slide"><img src="img/tenis5.jpg" alt="Livro sobre javascript assertivo da alurabooks">
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Nossa camisa mais vendida!</h3>
+          <h2 class="descrição__titulo-livro"></h2>
+          <p class="descrição__texto">real madrid endrick vini jr .
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/tenis6.jpg" class="img">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">Nossas Marcas!!!</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Nike</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">corinthians</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">palmeiras</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">são paulo</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">operario</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">manchester city</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">atlhetico mineiro</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">sporting</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Para mais informações acesse nosso site oficial.</h2>
+    <p class="contato__texto">
+      Email: Halex@gmail.com
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Halex</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
